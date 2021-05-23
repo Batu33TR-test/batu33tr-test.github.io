@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Indie+Flower&display=swap');
+
+body {
+	background-color: black;
+}
+
+a {
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: rgb(54, 182, 224);
+	font-family: 'Indie Flower', cursive;
+}
+
+a:hover {
+	color: rgb(12, 82, 105);
+}
+
+a:active {
+	color: yellow;
+}
+
+.topbar {
+	list-style-type: none;
+	margin: 12px;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+}
+
+.topbar li {
+	float: left;
+}
+
+.topbar li a {
+	display: block;
+	color: rgb(251, 140, 235);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 125%;
+}
+
+.topbar li a:hover {
+	background-color: #111;
+}
+
+.whatis {
+	font-family: 'Hachi Maru Pop', cursive;
+	font-size: 150%;
+	color: rgb(251, 140, 235);
+	text-align: center;
+}
+
+.topbar li a.active {
+	background-color: #333;
+}
+
+.home-text1 {
+	width: 100%;
+	margin:auto;
+	color: white;
+	font-size: 140%;
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	padding: 5px 0px 0px 0px;
+}
+
+.home-text1-logo {
+	float:left;
+	padding:35px 20px 10px 35px;
+}
+
+.home-text2-logo {
+	float:right;
+	padding: 35px 20px 10px 20px;
+}
+
+.whois {
+	font-family: 'Hachi Maru Pop', cursive;
+	font-size: 150%;
+	color: rgb(37, 150, 190);
+	text-align: center;
+	padding-top: 20px;
+}
+
+.home-text2 {
+	width: 100%;
+	margin:auto;
+	color: white;
+	font-size: 140%;
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+}
